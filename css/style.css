@@ -47,11 +47,30 @@ body {
     margin-bottom: 20px;
 }
 
+.card__text {
+    max-width: 340px;
+    height: 180px;
+    overflow: auto;
+    margin-bottom: 24px;
+}
+
+.card__text::-webkit-scrollbar {
+    width: 2px;
+}
+
+.card__text::-webkit-scrollbar-track {
+    background: #ccc;
+}
+
+.card__text::-webkit-scrollbar-thumb {
+    background: #0263B2;
+}
+
 .card__text p {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin-right: 20px;
 }
 
 .card__row-info {
